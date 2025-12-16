@@ -47,7 +47,7 @@ const Projects = () => {
           <SmallProject
             title="Todo List (React)"
             github="https://github.com/Abi-390/TodoListReact"
-            live="https://your-todolist.vercel.app"
+            live="https://todo-list-react-rouge-seven.vercel.app/"
           />
 
           <SmallProject
