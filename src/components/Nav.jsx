@@ -22,10 +22,10 @@ const Nav = () => {
         Projects
       </NavLink>
       <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/personalhistory">
-        Personal History
+        About
       </NavLink>
       <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/contact">
-        Contact Me
+        Contact
       </NavLink>
     </nav>
   );

@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+    const navigate = useNavigate();
   return (
     <section
       className="relative w-screen h-screen overflow-hidden"
@@ -9,10 +12,8 @@ const Home = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
-      {/* hero content */}
       <div className="relative z-10 h-full flex items-center justify-center px-4 text-white">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light tracking-wide">
@@ -24,12 +25,13 @@ const Home = () => {
         </div>
       </div>
 
-      {/* scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
-        <p className="mb-3 text-sm font-bold text-white tracking-widest">
-          SCROLL
+        <p
+          onClick={()=>navigate("/skills")}
+          className="mb-3 text-sm font-bold text-white tracking-widest"
+        >
+          VIEW SKILLS
         </p>
-        <div className="h-20 w-[1px] bg-white"></div>
       </div>
     </section>
   );
