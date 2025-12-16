@@ -13,7 +13,7 @@ import {
   SiNetlify,
 } from "react-icons/si";
 
-import { FaDatabase, FaBolt } from "react-icons/fa"; // ✅ safe generic icons
+import { FaDatabase, FaBolt } from "react-icons/fa"; 
 import { useNavigate } from "react-router-dom";
 
 const Skills = () => {
@@ -29,7 +29,7 @@ const Skills = () => {
       </h2>
 
       <div className="grid gap-12 md:grid-cols-3">
-        {/* Frontend */}
+       
         <SkillGroup title="Frontend">
           <Skill icon={SiReact} name="React" color="#61DAFB" />
           <Skill icon={SiRedux} name="Redux Toolkit" color="#764ABC" />
@@ -41,14 +41,14 @@ const Skills = () => {
           <Skill icon={SiCss3} name="CSS" color="#1572B6" />
         </SkillGroup>
 
-        {/* Backend */}
+      
         <SkillGroup title="Backend">
           <Skill icon={SiNodedotjs} name="Node.js" color="#339933" />
           <Skill icon={SiExpress} name="Express" color="#000000" />
           <Skill icon={SiMongodb} name="MongoDB" color="#47A248" />
         </SkillGroup>
 
-        {/* Tools */}
+     
         <SkillGroup title="Tools">
           <Skill icon={SiGithub} name="GitHub" color="#181717" />
           <Skill icon={SiVercel} name="Vercel" color="#000000" />
@@ -56,7 +56,7 @@ const Skills = () => {
         </SkillGroup>
       </div>
 
-      {/* CTA */}
+      
       <div className="mt-24 flex justify-center">
         <p
           onClick={() => navigate("/projects")}

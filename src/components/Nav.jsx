@@ -12,19 +12,19 @@ const Nav = () => {
         z-50 px-2
       "
     >
-      <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/">
+      <NavLink className={({ isActive }) => isActive ? "text-red-400" : ""} to="/">
         Home
       </NavLink>
-      <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/skills">
+      <NavLink className={({ isActive }) => isActive ? "text-red-400" : ""} to="/skills">
         Skills
       </NavLink>
-      <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/projects">
+      <NavLink className={({ isActive }) => isActive ? "text-red-400" : ""} to="/projects">
         Projects
       </NavLink>
-      <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/personalhistory">
+      <NavLink className={({ isActive }) => isActive ? "text-red-400" : ""} to="/personalhistory">
         About
       </NavLink>
-      <NavLink className={({ isActive }) => isActive ? "text-blue-400" : ""} to="/contact">
+      <NavLink className={({ isActive }) => isActive ? "text-red-400" : ""} to="/contact">
         Contact
       </NavLink>
     </nav>
