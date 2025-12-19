@@ -19,7 +19,7 @@ const Projects = () => {
           description="A React application demonstrating global state management using Redux Toolkit, async actions, and a scalable store architecture."
           tech="React · Redux Toolkit · JavaScript"
           github="https://github.com/Abi-390/ReduxProject"
-          live="https://your-redux-project.vercel.app"
+          live="https://otakustreetwear.vercel.app"
         />
 
         <Project
